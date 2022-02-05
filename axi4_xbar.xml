@@ -1,0 +1,18 @@
+vlnv: pulp-platform.org:axi:xbar:0.27.1
+parameters:
+  masters:
+    dma:
+      id_width : 1
+    ibus:
+      id_width : 2
+  slaves:
+    ram:
+      offset : 0
+      size: 0x10000000
+    gpio:
+      offset: 0x91000000
+      size: 0x1000
+    rom:
+      offset : 0xffff0000
+      size : 32768
+
